@@ -1,0 +1,62 @@
+.Top{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid #000;
+    border-right: 2px solid #000 ;
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #243642, #387478);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+
+  img{
+    height: 350px;
+    width: 250px;
+    border-radius: 10%;
+    border: 5px solid #000;
+    float:right;
+    margin-right: -300px;
+    margin-top: -350px;
+    }
+
+
+
+.Container{
+    display: inline;
+    width: 100%;
+   position: absolute;
+
+
+    .Top2{
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        border-left: 2px solid #000;
+        border-bottom: 5px solid #000;
+        border-right: 3px solid #000;
+    }
+
+    .wrap{
+        margin: 200px;
+        margin-left: 90px;
+        margin-right: 600px;
+        float: right;
+    }
+   
+    h1{
+        font-size: 80px;
+    }
+    
+}
+
+
+
+
+
